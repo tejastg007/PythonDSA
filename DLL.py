@@ -1,4 +1,8 @@
-# doublu linked list with only insertfirst, insertend, removefirst,removeend functionality. no checks for empty list before removing elements 
+""" 
+doublu linked list with only insertfirst, insertend, removefirst,removeend functionality. no checks for empty list before removing elements
+"""
+
+
 class Node:
     def __init__(self, item):
         self.value = item
