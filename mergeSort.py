@@ -16,7 +16,7 @@ def mergeArrays(arr, start, end, mid):
     rightArray = arr[mid+1:end+1]
 
     i = j = 0  # indices for left and right array
-    arrIndex = start #index for actual array
+    arrIndex = start  # index for actual array
 
     while i < len(leftArray) and j < len(rightArray):
         if leftArray[i] < rightArray[j]:
